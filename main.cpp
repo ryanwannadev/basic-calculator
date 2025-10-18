@@ -34,7 +34,6 @@ int main() {
 		cin>>b;
 		double answer=a+b;
 		cout << "The answer is: " << answer << endl;
-		return 0
 	}
 	else if (mode=="sub") {
 		cout<<"\n--Subtraction--\n" <<endl;
@@ -45,7 +44,6 @@ int main() {
 		cin>>b;
 		double answer=a-b;
 		cout << "The answer is: " << answer << endl;
-		return 0;
 	}
 	else if (mode=="div"){
 	    cout<<"\n--Division--\n" <<endl;
@@ -56,7 +54,8 @@ int main() {
 		cin>>b;
 		double answer=a/b;
 		cout << "The answer is: " << answer << endl;
-		return 0;
+	}
+	else {cout<<"Invalid operation.Please select one of the listed options" <<endl;
 	}
 	
 }
